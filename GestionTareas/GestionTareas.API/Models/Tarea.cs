@@ -1,4 +1,6 @@
-﻿namespace GestionTareas.API.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GestionTareas.API.Models
 {
     public class Tarea
     {
@@ -9,6 +11,7 @@
         public string Prioridad { get; set; }
         public int ProyectoId { get; set; }
         public int? UsuarioId { get; set; }
+        [Required]
 
         public Proyecto Proyecto { get; set; }  
         public Usuario Usuario { get; set; }   

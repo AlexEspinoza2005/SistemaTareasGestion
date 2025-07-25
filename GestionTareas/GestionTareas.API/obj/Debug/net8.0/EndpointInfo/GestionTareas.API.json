@@ -508,6 +508,9 @@
         "additionalProperties": false
       },
       "Tarea": {
+        "required": [
+          "proyecto"
+        ],
         "type": "object",
         "properties": {
           "id": {

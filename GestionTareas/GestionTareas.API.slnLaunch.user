@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "GestionTareas.API\\GestionTareas.API.csproj",
+        "Action": "StartWithoutDebugging"
+      },
+      {
+        "Path": "GestionTareas.MVC\\GestionTareas.MVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

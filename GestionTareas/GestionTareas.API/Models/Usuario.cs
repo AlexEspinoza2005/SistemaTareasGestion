@@ -7,6 +7,6 @@
         public string Email { get; set; }
         public string Contrasenia { get; set; }
 
-        public List<Tarea> Tareas { get; set; }  
+        public List<Tarea> Tareas { get; set; } = new List<Tarea>();
     }
 }

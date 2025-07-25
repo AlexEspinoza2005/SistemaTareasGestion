@@ -39,7 +39,7 @@ namespace GestionTareas.API.Controllers
         public IActionResult Post([FromBody] Proyecto proyectos)
         {
             connection.Execute(
-                @"INSERT INTO Tareas (Id, Nombre, Descripcion)" +
+                @"INSERT INTO Proyectos (Id, Nombre, Descripcion)" +
                 " VALUES (@Id, @Nombre, @Descripcion)",
                 new
                 {
