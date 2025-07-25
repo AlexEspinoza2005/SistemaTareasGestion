@@ -1,43 +1,31 @@
 ﻿@model GestionTareas.API.Models.Usuario
 
-@{
-    ViewData["Title"] = "Create";
-}
+<h1 class="text-center" style="color: #2c3e50; font-size: 2.5rem; font-weight: bold; margin-bottom: 30px;">Registrar Usuario</h1>
 
-<h1>Create</h1>
-
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contrasenia" class="control-label"></label>
-                <input asp-for="Contrasenia" class="form-control" />
-                <span asp-validation-for="Contrasenia" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+<form asp-action="Create" style="max-width: 500px; margin: 0 auto; background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+    <div class="form-group mb-4">
+        <label asp-for="Nombre" style="font-size: 1.1rem; color: #34495e;">Nombre</label>
+        <input asp-for="Nombre" class="form-control" style="border-radius: 8px; padding: 10px; border: 1px solid #ddd; font-size: 1rem;" />
+        <span asp-validation-for="Nombre" class="text-danger"></span>
     </div>
-</div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
+    <div class="form-group mb-4">
+        <label asp-for="Email" style="font-size: 1.1rem; color: #34495e;">Email</label>
+        <input asp-for="Email" type="email" class="form-control" style="border-radius: 8px; padding: 10px; border: 1px solid #ddd; font-size: 1rem;" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+    <div class="form-group mb-4">
+        <label asp-for="Contrasenia" style="font-size: 1.1rem; color: #34495e;">Contraseña</label>
+        <input asp-for="Contrasenia" type="password" class="form-control" style="border-radius: 8px; padding: 10px; border: 1px solid #ddd; font-size: 1rem;" />
+        <span asp-validation-for="Contrasenia" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-4">
+        <input type="submit" value="Crear" class="btn btn-primary btn-block" style="background-color: #3498db; border: none; font-size: 1.1rem; padding: 12px; border-radius: 8px;" />
+    </div>
+
+    <div class="text-center mt-3">
+        <a href="@Url.Action("Index")" style="color: #3498db; font-size: 1.1rem; text-decoration: none;">Cancelar</a>
+    </div>
+</form>

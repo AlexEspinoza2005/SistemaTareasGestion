@@ -16,6 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GestionTareas.API.Consumer\GestionTareas.API.Consumer.csproj" />
     <ProjectReference Include="..\GestionTareas.API\GestionTareas.API.csproj" />
   </ItemGroup>
 

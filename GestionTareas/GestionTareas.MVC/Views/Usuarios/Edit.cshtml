@@ -1,44 +1,39 @@
-﻿@model GestionTareas.API.Models.Usuario
+﻿ @model GestionTareas.API.Models.Usuario
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Usuario";
 }
 
-<h1>Edit</h1>
+<h1 class="text-center" style="color: #2c3e50; font-size: 2.5rem; font-weight: bold; margin-bottom: 30px;">@ViewData["Title"]</h1>
 
-<h4>Usuario</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Contrasenia" class="control-label"></label>
-                <input asp-for="Contrasenia" class="form-control" />
-                <span asp-validation-for="Contrasenia" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+<div class="container" style="max-width: 600px; margin: 0 auto; padding: 20px; background-color: #ffffff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="Id" />
+
+        <div class="form-group mb-3">
+            <label for="Nombre" class="form-label" style="font-weight: bold;">Nombre</label>
+            <input asp-for="Nombre" class="form-control" style="padding: 10px; border-radius: 8px; border: 1px solid #ddd;" />
+            <span asp-validation-for="Nombre" class="text-danger" style="font-size: 0.9rem;"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="Email" class="form-label" style="font-weight: bold;">Email</label>
+            <input asp-for="Email" type="email" class="form-control" style="padding: 10px; border-radius: 8px; border: 1px solid #ddd;" />
+            <span asp-validation-for="Email" class="text-danger" style="font-size: 0.9rem;"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="Contrasenia" class="form-label" style="font-weight: bold;">Contraseña</label>
+            <input asp-for="Contrasenia" type="password" class="form-control" style="padding: 10px; border-radius: 8px; border: 1px solid #ddd;" />
+            <span asp-validation-for="Contrasenia" class="text-danger" style="font-size: 0.9rem;"></span>
+        </div>
+
+        <div class="text-center" style="margin-top: 20px;">
+            <input type="submit" value="Guardar Cambios" class="btn btn-primary" style="background-color: #3498db; border: none; padding: 12px 20px; border-radius: 8px; font-size: 1.1rem; width: 100%;" />
+        </div>
+
+        <div class="text-center" style="margin-top: 10px;">
+            <a href="@Url.Action("Index")" style="color: #e74c3c; font-size: 1.1rem;">Cancelar</a>
+        </div>
+    </form>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+
 namespace GestionTareas.MVC
 {
     public class Program
@@ -7,11 +8,21 @@ namespace GestionTareas.MVC
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
             builder.Services.AddDbContext<GestionTareasDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("GestionTareasDbContext") ?? throw new InvalidOperationException("Connection string 'GestionTareasDbContext' not found.")));
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            builder.Services.AddHttpClient();
+
+            // Configurar sesiones
+            builder.Services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromMinutes(30);
+                options.Cookie.HttpOnly = true;
+                options.Cookie.IsEssential = true;
+            });
 
             var app = builder.Build();
 
@@ -25,8 +36,9 @@ namespace GestionTareas.MVC
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
+
+            app.UseSession();
 
             app.UseAuthorization();
 

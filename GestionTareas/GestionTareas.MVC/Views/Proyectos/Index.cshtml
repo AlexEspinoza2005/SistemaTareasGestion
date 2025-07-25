@@ -1,41 +1,43 @@
 ﻿@model IEnumerable<GestionTareas.API.Models.Proyecto>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Proyectos";
 }
 
-<h1>Index</h1>
+<h1 class="text-center" style="color: #2c3e50; font-size: 2.5rem; font-weight: bold; margin-bottom: 30px;">@ViewData["Title"]</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container" style="max-width: 90%; margin: 0 auto;">
+    <div class="text-right mb-4">
+        <a href="@Url.Action("Create")" class="btn btn-primary" style="background-color: #3498db; border: none; font-size: 1.1rem; padding: 12px 20px; border-radius: 8px;">Crear Nuevo Proyecto</a>
+    </div>
+
+    <table class="table table-striped" style="border-collapse: collapse; width: 100%; font-size: 1.1rem;">
+        <thead class="thead-dark" style="background-color: #34495e; color: #ffffff;">
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: #f9f9f9;">
+            @foreach (var proyecto in Model)
+            {
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td>@proyecto.Id</td>
+                    <td>@proyecto.Nombre</td>
+                    <td>@proyecto.Descripcion</td>
+                    <td>
+                        <a href="@Url.Action("Details", "Proyectos", new { id = proyecto.Id })" class="btn btn-info btn-sm" style="background-color: #3498db; border: none; font-size: 1rem; padding: 8px 12px; border-radius: 8px;">Detalles</a>
+                        <a href="@Url.Action("Edit", "Proyectos", new { id = proyecto.Id })" class="btn btn-warning btn-sm" style="background-color: #f39c12; border: none; font-size: 1rem; padding: 8px 12px; border-radius: 8px;">Editar</a>
+                        <a href="@Url.Action("Delete", "Proyectos", new { id = proyecto.Id })" class="btn btn-danger btn-sm" style="background-color: #e74c3c; border: none; font-size: 1rem; padding: 8px 12px; border-radius: 8px;">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-center" style="margin-top: 30px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0MJ2rtTuz5xmUWuJP2O7uV3XyEP1ooj7QQ&s" alt="Imagen de proyectos" style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+    </div>
+</div>

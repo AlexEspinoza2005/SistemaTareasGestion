@@ -1,38 +1,28 @@
 ﻿@model GestionTareas.API.Models.Proyecto
 
-@{
-    ViewData["Title"] = "Create";
-}
+<h1>Crear Nuevo Proyecto</h1>
 
-<h1>Create</h1>
-
-<h4>Proyecto</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-6">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
+
+            <div class="form-group mb-3">
+                <label asp-for="Nombre" class="form-label">Nombre</label>
                 <input asp-for="Nombre" class="form-control" />
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Descripcion" class="control-label"></label>
-                <input asp-for="Descripcion" class="form-control" />
+
+            <div class="form-group mb-3">
+                <label asp-for="Descripcion" class="form-label">Descripción</label>
+                <textarea asp-for="Descripcion" class="form-control" rows="4"></textarea>
                 <span asp-validation-for="Descripcion" class="text-danger"></span>
             </div>
+
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Crear" class="btn btn-primary" />
+                <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
             </div>
         </form>
     </div>
 </div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}

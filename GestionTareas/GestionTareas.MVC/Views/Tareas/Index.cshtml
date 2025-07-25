@@ -1,53 +1,53 @@
 ﻿@model IEnumerable<GestionTareas.API.Models.Tarea>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Tareas";
 }
 
-<h1>Index</h1>
+<h1 class="text-center" style="color: #2c3e50; font-size: 2.5rem; font-weight: bold; margin-bottom: 30px;">@ViewData["Title"]</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Descripcion)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Estado)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Prioridad)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Descripcion)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Estado)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Prioridad)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="container" style="max-width: 90%; margin: 0 auto;">
+    <div class="text-right mb-4">
+        <a href="@Url.Action("Create")" class="btn btn-primary" style="background-color: #3498db; border: none; font-size: 1.1rem; padding: 12px 20px; border-radius: 8px;">Crear Nueva Tarea</a>
+    </div>
+
+    <table class="table table-striped" style="border-collapse: collapse; width: 100%; font-size: 1.1rem;">
+        <thead class="thead-dark" style="background-color: #34495e; color: #ffffff;">
+            <tr>
+                <th>ID</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Estado</th>
+                <th>Prioridad</th>
+                <th>Proyecto ID</th>
+                <th>Usuario ID</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody style="background-color: #f9f9f9;">
+            @foreach (var tarea in Model)
+            {
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td>@tarea.Id</td>
+                    <td>@tarea.Titulo</td>
+                    <td>@tarea.Descripcion</td>
+                    <td>@tarea.Estado</td>
+                    <td>@tarea.Prioridad</td>
+                    <td>@tarea.ProyectoId</td>
+                    <td>@tarea.UsuarioId</td>
+                    <td>
+                        <a href="@Url.Action("Details", new { id = tarea.Id })" class="btn btn-info btn-sm" style="background-color: #3498db; border: none; font-size: 1rem; padding: 8px 12px; border-radius: 8px; margin-right: 5px;">Detalles</a>
+                        <a href="@Url.Action("Edit", new { id = tarea.Id })" class="btn btn-warning btn-sm" style="background-color: #f39c12; border: none; font-size: 1rem; padding: 8px 12px; border-radius: 8px; margin-right: 5px;">Editar</a>
+                        <a href="@Url.Action("Delete", new { id = tarea.Id })" class="btn btn-danger btn-sm" style="background-color: #e74c3c; border: none; font-size: 1rem; padding: 8px 12px; border-radius: 8px;">Eliminar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-center" style="margin-top: 30px;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbgU_o8Zk3RSfOV6mkzFY71rA4ZFsrx8PFRw&s"
+             alt="Imagen de tareas"
+             style="max-width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);" />
+    </div>
+</div>

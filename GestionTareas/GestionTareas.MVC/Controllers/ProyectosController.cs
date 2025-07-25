@@ -1,45 +1,39 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GestionTareas.API.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using GestionTareas.API.Models;
+using System.Net.Http;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace GestionTareas.MVC.Controllers
 {
     public class ProyectosController : Controller
     {
-        private readonly GestionTareasDbContext _context;
+        private readonly HttpClient _httpClient;
+        private readonly string _apiBaseUrl = "https://localhost:7154/api/proyectos";
 
-        public ProyectosController(GestionTareasDbContext context)
+        public ProyectosController(HttpClient httpClient)
         {
-            _context = context;
+            _httpClient = httpClient;
         }
 
         // GET: Proyectos
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Proyectos.ToListAsync());
+            var response = await _httpClient.GetFromJsonAsync<IEnumerable<Proyecto>>(_apiBaseUrl);
+            return View(response);
         }
 
         // GET: Proyectos/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(int id)
         {
-            if (id == null)
+            var response = await _httpClient.GetFromJsonAsync<Proyecto>($"{_apiBaseUrl}/{id}");
+            if (response == null)
             {
                 return NotFound();
             }
 
-            var proyecto = await _context.Proyectos
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (proyecto == null)
-            {
-                return NotFound();
-            }
-
-            return View(proyecto);
+            return View(response);
         }
 
         // GET: Proyectos/Create
@@ -48,39 +42,35 @@ namespace GestionTareas.MVC.Controllers
             return View();
         }
 
-        
+        // POST: Proyectos/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Descripcion")] Proyecto proyecto)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(proyecto);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                var response = await _httpClient.PostAsJsonAsync(_apiBaseUrl, proyecto);
+                if (response.IsSuccessStatusCode)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
             }
             return View(proyecto);
         }
 
         // GET: Proyectos/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(int id)
         {
-            if (id == null)
+            var response = await _httpClient.GetFromJsonAsync<Proyecto>($"{_apiBaseUrl}/{id}");
+            if (response == null)
             {
                 return NotFound();
             }
 
-            var proyecto = await _context.Proyectos.FindAsync(id);
-            if (proyecto == null)
-            {
-                return NotFound();
-            }
-            return View(proyecto);
+            return View(response);
         }
 
-      
+        // POST: Proyectos/Edit/5
         [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Descripcion")] Proyecto proyecto)
         {
             if (id != proyecto.Id)
@@ -90,63 +80,37 @@ namespace GestionTareas.MVC.Controllers
 
             if (ModelState.IsValid)
             {
-                try
+                var response = await _httpClient.PutAsJsonAsync($"{_apiBaseUrl}/{id}", proyecto);
+                if (response.IsSuccessStatusCode)
                 {
-                    _context.Update(proyecto);
-                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ProyectoExists(proyecto.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
             }
             return View(proyecto);
         }
 
         // GET: Proyectos/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int id)
         {
-            if (id == null)
+            var response = await _httpClient.GetFromJsonAsync<Proyecto>($"{_apiBaseUrl}/{id}");
+            if (response == null)
             {
                 return NotFound();
             }
 
-            var proyecto = await _context.Proyectos
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (proyecto == null)
-            {
-                return NotFound();
-            }
-
-            return View(proyecto);
+            return View(response);
         }
 
         // POST: Proyectos/Delete/5
         [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var proyecto = await _context.Proyectos.FindAsync(id);
-            if (proyecto != null)
+            var response = await _httpClient.DeleteAsync($"{_apiBaseUrl}/{id}");
+            if (response.IsSuccessStatusCode)
             {
-                _context.Proyectos.Remove(proyecto);
+                return RedirectToAction(nameof(Index));
             }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool ProyectoExists(int id)
-        {
-            return _context.Proyectos.Any(e => e.Id == id);
+            return BadRequest();
         }
     }
 }

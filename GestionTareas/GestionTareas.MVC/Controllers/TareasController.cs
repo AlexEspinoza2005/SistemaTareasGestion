@@ -1,45 +1,51 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GestionTareas.API.Models;
+using GestionTareas.API.Consumer;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using GestionTareas.API.Models;
 
 namespace GestionTareas.MVC.Controllers
 {
     public class TareasController : Controller
     {
-        private readonly GestionTareasDbContext _context;
-
-        public TareasController(GestionTareasDbContext context)
+        public TareasController()
         {
-            _context = context;
+            Crud<Tarea>.EndPoint = "https://localhost:7154/api/tareas";
         }
 
         // GET: Tareas
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Tareas.ToListAsync());
+            try
+            {
+                var tareas = Crud<Tarea>.GetAll();
+                return View(tareas);
+            }
+            catch (Exception ex)
+            {
+                return View(new List<Tarea>());
+            }
         }
 
         // GET: Tareas/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var tarea = await _context.Tareas
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (tarea == null)
+            try
+            {
+                var tarea = Crud<Tarea>.GetById(id.Value);
+                if (tarea == null)
+                {
+                    return NotFound();
+                }
+                return View(tarea);
+            }
+            catch (Exception)
             {
                 return NotFound();
             }
-
-            return View(tarea);
         }
 
         // GET: Tareas/Create
@@ -49,43 +55,52 @@ namespace GestionTareas.MVC.Controllers
         }
 
         // POST: Tareas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Titulo,Descripcion,Estado,Prioridad,ProyectoId,UsuarioId")] Tarea tarea)
+        public IActionResult Create([Bind("Id,Titulo,Descripcion,Estado,Prioridad,ProyectoId,UsuarioId")] Tarea tarea)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(tarea);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    Crud<Tarea>.Create(tarea);
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception)
+                {
+                    ModelState.AddModelError("", "Error al crear la tarea");
+                }
             }
             return View(tarea);
         }
 
         // GET: Tareas/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var tarea = await _context.Tareas.FindAsync(id);
-            if (tarea == null)
+            try
+            {
+                var tarea = Crud<Tarea>.GetById(id.Value);
+                if (tarea == null)
+                {
+                    return NotFound();
+                }
+                return View(tarea);
+            }
+            catch (Exception)
             {
                 return NotFound();
             }
-            return View(tarea);
         }
 
         // POST: Tareas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Titulo,Descripcion,Estado,Prioridad,ProyectoId,UsuarioId")] Tarea tarea)
+        public IActionResult Edit(int id, [Bind("Id,Titulo,Descripcion,Estado,Prioridad,ProyectoId,UsuarioId")] Tarea tarea)
         {
             if (id != tarea.Id)
             {
@@ -96,61 +111,54 @@ namespace GestionTareas.MVC.Controllers
             {
                 try
                 {
-                    _context.Update(tarea);
-                    await _context.SaveChangesAsync();
+                    Crud<Tarea>.Update(id, tarea);
+                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception)
                 {
-                    if (!TareaExists(tarea.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    ModelState.AddModelError("", "Error al actualizar la tarea");
                 }
-                return RedirectToAction(nameof(Index));
             }
             return View(tarea);
         }
 
         // GET: Tareas/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public IActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var tarea = await _context.Tareas
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (tarea == null)
+            try
+            {
+                var tarea = Crud<Tarea>.GetById(id.Value);
+                if (tarea == null)
+                {
+                    return NotFound();
+                }
+                return View(tarea);
+            }
+            catch (Exception)
             {
                 return NotFound();
             }
-
-            return View(tarea);
         }
 
         // POST: Tareas/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
-            var tarea = await _context.Tareas.FindAsync(id);
-            if (tarea != null)
+            try
             {
-                _context.Tareas.Remove(tarea);
+                Crud<Tarea>.Delete(id);
+                return RedirectToAction(nameof(Index));
             }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool TareaExists(int id)
-        {
-            return _context.Tareas.Any(e => e.Id == id);
+            catch (Exception)
+            {
+                return BadRequest("Error al eliminar la tarea");
+            }
         }
     }
 }

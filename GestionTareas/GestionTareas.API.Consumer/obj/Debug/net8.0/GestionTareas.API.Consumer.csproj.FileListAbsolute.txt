@@ -1,0 +1,13 @@
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\bin\Debug\net8.0\GestionTareas.API.Consumer.deps.json
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\bin\Debug\net8.0\GestionTareas.API.Consumer.dll
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\bin\Debug\net8.0\GestionTareas.API.Consumer.pdb
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.csproj.AssemblyReference.cache
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.AssemblyInfoInputs.cache
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.AssemblyInfo.cs
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.sourcelink.json
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.dll
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\refint\GestionTareas.API.Consumer.dll
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\GestionTareas.API.Consumer.pdb
+C:\Users\jkespinoza\OneDrive - Totaltek\Documentos\ExamenHerramientas1\GestionTareas\GestionTareas.API.Consumer\obj\Debug\net8.0\ref\GestionTareas.API.Consumer.dll

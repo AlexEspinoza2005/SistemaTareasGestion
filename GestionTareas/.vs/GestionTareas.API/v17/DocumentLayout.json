@@ -3,40 +3,152 @@
   "WorkspaceRootPath": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\proyectos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\proyectos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\tareas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\tareas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\usuarios\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\data\\gestiontareasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\data\\gestiontareasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\tareas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\tareas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\proyectos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\proyectos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\proyectos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\proyectos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\usuarios\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\usuarios\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\proyectos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\proyectos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\usuarios\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\tareas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\tareas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\tareas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\tareas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\proyectos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\proyectos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\models\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\models\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\proyectos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\proyectos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\usuarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\usuarios\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\tareas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\tareas\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\proyectos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\proyectos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{758D3195-1AEA-4BBD-AB04-979EEE87564C}|GestionTareas.API.Consumer\\GestionTareas.API.Consumer.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api.consumer\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{758D3195-1AEA-4BBD-AB04-979EEE87564C}|GestionTareas.API.Consumer\\GestionTareas.API.Consumer.csproj|solutionrelative:gestiontareas.api.consumer\\crud.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\data\\gestiontareasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\data\\gestiontareasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -47,47 +159,11 @@
       "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.mvc\\gestiontareas.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{9D5A1E66-09E5-4DB2-8E82-6800C0207FB9}|GestionTareas.MVC\\GestionTareas.MVC.csproj|solutionrelative:gestiontareas.mvc\\gestiontareas.mvc.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\models\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionDesarrollos/True/SqlTable/dbo.Tareas.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\models\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\models\\proyecto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|solutionrelative:gestiontareas.api\\controllers\\proyectoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C6396D61-D7DC-4C58-BE58-AA61793363ED}|GestionTareas.API\\GestionTareas.API.csproj|c:\\users\\jkespinoza\\onedrive - totaltek\\documentos\\examenherramientas1\\gestiontareas\\gestiontareas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -108,7 +184,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -124,67 +200,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T17:47:45.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TareasController.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\TareasController.cs",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\TareasController.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\TareasController.cs",
-              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\TareasController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T17:47:04.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml",
-              "RelativeToolTip": "GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Perfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Perfil.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Usuarios\\Perfil.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Perfil.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Usuarios\\Perfil.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T17:42:30.614Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProyectosController.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\ProyectosController.cs",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\ProyectosController.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\ProyectosController.cs",
-              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\ProyectosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T17:31:21.475Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
-              "RelativeToolTip": "GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T17:39:29.665Z",
+              "WhenOpened": "2025-07-25T18:54:09.451Z",
               "EditorCaption": ""
             },
             {
@@ -195,7 +219,7 @@
               "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Proyectos\\Index.cshtml",
               "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Index.cshtml",
               "RelativeToolTip": "GestionTareas.MVC\\Views\\Proyectos\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-25T17:31:47.866Z",
               "EditorCaption": ""
@@ -203,157 +227,174 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GestionTareasDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
-              "RelativeToolTip": "GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T16:47:59.179Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Tareas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Index.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Tareas\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:16:18.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Usuarios\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Edit.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Usuarios\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T15:51:30.623Z",
+              "WhenOpened": "2025-07-25T18:29:55.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Tareas\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Details.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Tareas\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:27:51.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml*",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Proyectos\\Edit.cshtml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T17:42:30.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T17:08:41.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T19:13:44.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Tareas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Edit.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Tareas\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:28:20.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Tareas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Create.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Tareas\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:27:28.801Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Usuarios\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Create.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Usuarios\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:29:12.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Auth\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Auth\\Index.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Auth\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T19:01:14.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:48:51.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "GestionTareas.MVC\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-25T15:52:32.019Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\appsettings.json",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\appsettings.json",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\appsettings.json",
-              "RelativeToolTip": "GestionTareas.MVC\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-25T15:23:27.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\appsettings.json",
-              "RelativeDocumentMoniker": "GestionTareas.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\appsettings.json",
-              "RelativeToolTip": "GestionTareas.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-25T17:34:15.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Program.cs",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Program.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Program.cs",
-              "RelativeToolTip": "GestionTareas.MVC\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T16:55:19.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
-              "RelativeToolTip": "GestionTareas.MVC\\Views\\Usuarios\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-25T17:08:41.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "GestionTareas.MVC.csproj",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\GestionTareas.MVC.csproj",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\GestionTareas.MVC.csproj",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\GestionTareas.MVC.csproj",
-              "RelativeToolTip": "GestionTareas.MVC\\GestionTareas.MVC.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-25T16:30:50.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T15:24:32.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "GestionTareas.API\\Controllers\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\UsuariosController.cs",
-              "RelativeToolTip": "GestionTareas.API\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T16:33:27.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TareasController.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\TareasController.cs",
-              "RelativeDocumentMoniker": "GestionTareas.API\\Controllers\\TareasController.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\TareasController.cs",
-              "RelativeToolTip": "GestionTareas.API\\Controllers\\TareasController.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T14:49:54.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Tarea.cs",
-              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Models\\Tarea.cs",
-              "RelativeDocumentMoniker": "GestionTareas.API\\Models\\Tarea.cs",
-              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Models\\Tarea.cs",
-              "RelativeToolTip": "GestionTareas.API\\Models\\Tarea.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T14:59:03.184Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Proyectos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Details.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Proyectos\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:25:35.838Z",
               "EditorCaption": ""
             },
             {
@@ -371,16 +412,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "dbo.Tareas.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionDesarrollos/True/SqlTable/dbo.Tareas.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionDesarrollos/True/SqlTable/dbo.Tareas.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-07-25T16:28:28.027Z"
+              "DocumentIndex": 16,
+              "Title": "Tarea.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Models\\Tarea.cs",
+              "RelativeDocumentMoniker": "GestionTareas.API\\Models\\Tarea.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Models\\Tarea.cs",
+              "RelativeToolTip": "GestionTareas.API\\Models\\Tarea.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:59:03.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 15,
               "Title": "Proyecto.cs",
               "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Models\\Proyecto.cs",
               "RelativeDocumentMoniker": "GestionTareas.API\\Models\\Proyecto.cs",
@@ -393,20 +438,302 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\TareasController.cs",
+              "RelativeDocumentMoniker": "GestionTareas.API\\Controllers\\TareasController.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\TareasController.cs",
+              "RelativeToolTip": "GestionTareas.API\\Controllers\\TareasController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T14:49:54.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T19:13:31.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T19:13:33.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T15:24:32.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:41:21.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
+              "Title": "ProyectosController.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\ProyectosController.cs",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\ProyectosController.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\ProyectosController.cs",
+              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\ProyectosController.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAwwGcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:31:21.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Program.cs",
+              "RelativeToolTip": "GestionTareas.MVC\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T16:55:19.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAAAKoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:47:45.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T15:51:30.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "ProyectosController.cs",
               "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\ProyectosController.cs",
               "RelativeDocumentMoniker": "GestionTareas.API\\Controllers\\ProyectosController.cs",
               "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\ProyectosController.cs",
               "RelativeToolTip": "GestionTareas.API\\Controllers\\ProyectosController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAcwC0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAiwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T14:53:31.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "GestionTareas.API\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "GestionTareas.API\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA1wCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T16:33:27.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Proyectos\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T17:39:29.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Usuarios\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Delete.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Usuarios\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:29:44.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Details.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Usuarios\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Usuarios\\Details.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Usuarios\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:29:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Tareas\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Tareas\\Delete.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Tareas\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:28:36.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Views\\Proyectos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Views\\Proyectos\\Delete.cshtml",
+              "RelativeToolTip": "GestionTareas.MVC\\Views\\Proyectos\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T18:26:21.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\TareasController.cs",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Controllers\\TareasController.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Controllers\\TareasController.cs",
+              "RelativeToolTip": "GestionTareas.MVC\\Controllers\\TareasController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAuwHwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:47:04.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Crud.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API.Consumer\\Crud.cs",
+              "RelativeDocumentMoniker": "GestionTareas.API.Consumer\\Crud.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API.Consumer\\Crud.cs",
+              "RelativeToolTip": "GestionTareas.API.Consumer\\Crud.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAuwH4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:19:33.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "GestionTareasDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
+              "RelativeToolTip": "GestionTareas.MVC\\Data\\GestionTareasDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T16:47:59.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\appsettings.json",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\appsettings.json",
+              "RelativeToolTip": "GestionTareas.MVC\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T15:23:27.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\appsettings.json",
+              "RelativeDocumentMoniker": "GestionTareas.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\appsettings.json",
+              "RelativeToolTip": "GestionTareas.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-25T17:34:15.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GestionTareas.MVC.csproj",
+              "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\GestionTareas.MVC.csproj",
+              "RelativeDocumentMoniker": "GestionTareas.MVC\\GestionTareas.MVC.csproj",
+              "ToolTip": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.MVC\\GestionTareas.MVC.csproj",
+              "RelativeToolTip": "GestionTareas.MVC\\GestionTareas.MVC.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-25T16:30:50.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "dbo.Tareas [Datos]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionDesarrollos/True/SqlTable/dbo.Tareas.sql",
+              "ToolTip": "dbo.Tareas [Datos]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-25T16:28:28.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "GestionTareas.API.csproj",
               "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\GestionTareas.API.csproj",
               "RelativeDocumentMoniker": "GestionTareas.API\\GestionTareas.API.csproj",
@@ -419,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 41,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\Program.cs",
               "RelativeDocumentMoniker": "GestionTareas.API\\Program.cs",
@@ -432,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 43,
               "Title": "dbo.Proyectos [Datos]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/GestionDesarrollos/True/SqlTable/dbo.Proyectos.sql",
               "ToolTip": "dbo.Proyectos [Datos]",

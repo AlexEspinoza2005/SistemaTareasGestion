@@ -41,25 +41,27 @@ namespace GestionTareas.API.Controllers
             return tareas;
         }
 
-        // POST api/<TareasController>
         [HttpPost]
         public IActionResult Post([FromBody] Tarea tareas)
         {
+            var maxId = connection.QuerySingleOrDefault<int?>("SELECT MAX(Id) FROM Tareas") ?? 0;
+            var nuevoId = maxId + 1;
+
             connection.Execute(
                 @"INSERT INTO Tareas (Id, Titulo, Descripcion, Estado, Prioridad, ProyectoId, UsuarioId)" +
                 " VALUES (@Id, @Titulo, @Descripcion, @Estado, @Prioridad, @ProyectoId, @UsuarioId)",
                 new
                 {
-                    Id = tareas.Id,
+                    Id = nuevoId,
                     Titulo = tareas.Titulo,
                     Descripcion = tareas.Descripcion,
-                    Estado = tareas.Estado
-                    ,
+                    Estado = tareas.Estado,
                     Prioridad = tareas.Prioridad,
                     ProyectoId = tareas.ProyectoId,
                     UsuarioId = tareas.UsuarioId
                 });
 
+            tareas.Id = nuevoId;
             return Ok(tareas);
         }
 

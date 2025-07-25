@@ -1,45 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using GestionTareas.API.Models;
+using GestionTareas.API.Consumer;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using GestionTareas.API.Models;
 
 namespace GestionTareas.MVC.Controllers
 {
     public class UsuariosController : Controller
     {
-        private readonly GestionTareasDbContext _context;
-
-        public UsuariosController(GestionTareasDbContext context)
+        public UsuariosController()
         {
-            _context = context;
+            Crud<Usuario>.EndPoint = "https://localhost:7154/api/Usuarios";
         }
 
         // GET: Usuarios
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Usuarios.ToListAsync());
+            try
+            {
+                var usuarios = Crud<Usuario>.GetAll();
+                return View(usuarios);
+            }
+            catch (Exception ex)
+            {
+                return View(new List<Usuario>());
+            }
         }
 
         // GET: Usuarios/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int id)
         {
-            if (id == null)
+            try
+            {
+                var usuario = Crud<Usuario>.GetById(id);
+                if (usuario == null)
+                {
+                    return NotFound();
+                }
+                return View(usuario);
+            }
+            catch (Exception)
             {
                 return NotFound();
             }
-
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
-
-            return View(usuario);
         }
 
         // GET: Usuarios/Create
@@ -49,43 +50,47 @@ namespace GestionTareas.MVC.Controllers
         }
 
         // POST: Usuarios/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,Email,Contrasenia")] Usuario usuario)
+        public IActionResult Create([Bind("Id,Nombre,Email,Contrasenia")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(usuario);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    Crud<Usuario>.Create(usuario);
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception)
+                {
+                    ModelState.AddModelError("", "Error al crear el usuario");
+                }
             }
             return View(usuario);
         }
 
         // GET: Usuarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int id)
         {
-            if (id == null)
+            try
+            {
+                var usuario = Crud<Usuario>.GetById(id);
+                if (usuario == null)
+                {
+                    return NotFound();
+                }
+                return View(usuario);
+            }
+            catch (Exception)
             {
                 return NotFound();
             }
-
-            var usuario = await _context.Usuarios.FindAsync(id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
-            return View(usuario);
         }
 
         // POST: Usuarios/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Email,Contrasenia")] Usuario usuario)
+        public IActionResult Edit(int id, [Bind("Id,Nombre,Email,Contrasenia")] Usuario usuario)
         {
             if (id != usuario.Id)
             {
@@ -96,61 +101,74 @@ namespace GestionTareas.MVC.Controllers
             {
                 try
                 {
-                    _context.Update(usuario);
-                    await _context.SaveChangesAsync();
+                    Crud<Usuario>.Update(id, usuario);
+                    return RedirectToAction(nameof(Index));
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception)
                 {
-                    if (!UsuarioExists(usuario.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    ModelState.AddModelError("", "Error al actualizar el usuario");
                 }
-                return RedirectToAction(nameof(Index));
             }
             return View(usuario);
         }
 
         // GET: Usuarios/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public IActionResult Delete(int id)
         {
-            if (id == null)
+            try
+            {
+                var usuario = Crud<Usuario>.GetById(id);
+                if (usuario == null)
+                {
+                    return NotFound();
+                }
+                return View(usuario);
+            }
+            catch (Exception)
             {
                 return NotFound();
             }
-
-            var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
-            {
-                return NotFound();
-            }
-
-            return View(usuario);
         }
 
         // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
-            var usuario = await _context.Usuarios.FindAsync(id);
-            if (usuario != null)
+            try
             {
-                _context.Usuarios.Remove(usuario);
+                Crud<Usuario>.Delete(id);
+                return RedirectToAction(nameof(Index));
             }
-
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            catch (Exception)
+            {
+                return BadRequest("Error al eliminar el usuario");
+            }
         }
 
-        private bool UsuarioExists(int id)
+
+        public IActionResult Perfil()
         {
-            return _context.Usuarios.Any(e => e.Id == id);
+            try
+            {
+                var usuarioId = HttpContext.Session.GetString("UsuarioId");
+                if (string.IsNullOrEmpty(usuarioId))
+                {
+                    return RedirectToAction("Index", "Auth");
+                }
+
+                var usuario = Crud<Usuario>.GetById(int.Parse(usuarioId));
+                if (usuario == null)
+                {
+                    return NotFound();
+                }
+                return View(usuario);
+            }
+            catch (Exception)
+            {
+                return RedirectToAction("Index", "Home");
+            }
         }
+
     }
 }

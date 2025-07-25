@@ -39,18 +39,22 @@ namespace GestionTareas.API.Controllers
         [HttpPost]
         public IActionResult Post([FromBody] Usuario usuario)
         {
+            var maxId = connection.QuerySingleOrDefault<int?>("SELECT MAX(Id) FROM Usuarios") ?? 0;
+            var nuevoId = maxId + 1;
+
             connection.Execute(
                 @"INSERT INTO Usuarios (Id, Nombre, Email, Contrasenia)" +
                 " VALUES (@Id, @Nombre, @Email, @Contrasenia)",
                 new
                 {
-                    Id = usuario.Id,
+                    Id = nuevoId,
                     Nombre = usuario.Nombre,
                     Email = usuario.Email,
                     Contrasenia = usuario.Contrasenia
                 });
 
-            return Ok(usuario); 
+            usuario.Id = nuevoId;
+            return Ok(usuario);
         }
 
 
