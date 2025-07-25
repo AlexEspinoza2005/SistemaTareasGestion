@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.ProyectosController",
+    "ContainingType": "GestionTareas.API.Controllers.ProyectosController",
     "Method": "Get",
     "RelativePath": "api/Proyectos",
     "HttpMethod": "GET",
@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.ProyectosController",
+    "ContainingType": "GestionTareas.API.Controllers.ProyectosController",
     "Method": "Post",
     "RelativePath": "api/Proyectos",
     "HttpMethod": "POST",
@@ -28,21 +28,15 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "proyectos",
+        "Type": "GestionTareas.API.Models.Proyecto",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.ProyectosController",
+    "ContainingType": "GestionTareas.API.Controllers.ProyectosController",
     "Method": "Get",
     "RelativePath": "api/Proyectos/{id}",
     "HttpMethod": "GET",
@@ -55,20 +49,10 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.ProyectosController",
+    "ContainingType": "GestionTareas.API.Controllers.ProyectosController",
     "Method": "Put",
     "RelativePath": "api/Proyectos/{id}",
     "HttpMethod": "PUT",
@@ -81,8 +65,8 @@
         "IsRequired": true
       },
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "proyectos",
+        "Type": "GestionTareas.API.Models.Proyecto",
         "IsRequired": true
       }
     ],
@@ -95,7 +79,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.ProyectosController",
+    "ContainingType": "GestionTareas.API.Controllers.ProyectosController",
     "Method": "Delete",
     "RelativePath": "api/Proyectos/{id}",
     "HttpMethod": "DELETE",
@@ -117,7 +101,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.TareasController",
+    "ContainingType": "GestionTareas.API.Controllers.TareasController",
     "Method": "Get",
     "RelativePath": "api/Tareas",
     "HttpMethod": "GET",
@@ -126,7 +110,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -137,7 +121,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.TareasController",
+    "ContainingType": "GestionTareas.API.Controllers.TareasController",
     "Method": "Post",
     "RelativePath": "api/Tareas",
     "HttpMethod": "POST",
@@ -145,21 +129,15 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "tareas",
+        "Type": "GestionTareas.API.Models.Tarea",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.TareasController",
+    "ContainingType": "GestionTareas.API.Controllers.TareasController",
     "Method": "Get",
     "RelativePath": "api/Tareas/{id}",
     "HttpMethod": "GET",
@@ -172,20 +150,10 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.TareasController",
+    "ContainingType": "GestionTareas.API.Controllers.TareasController",
     "Method": "Put",
     "RelativePath": "api/Tareas/{id}",
     "HttpMethod": "PUT",
@@ -198,8 +166,8 @@
         "IsRequired": true
       },
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "tareas",
+        "Type": "GestionTareas.API.Models.Tarea",
         "IsRequired": true
       }
     ],
@@ -212,7 +180,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.TareasController",
+    "ContainingType": "GestionTareas.API.Controllers.TareasController",
     "Method": "Delete",
     "RelativePath": "api/Tareas/{id}",
     "HttpMethod": "DELETE",
@@ -234,7 +202,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.UsuariosController",
+    "ContainingType": "GestionTareas.API.Controllers.UsuariosController",
     "Method": "Get",
     "RelativePath": "api/Usuarios",
     "HttpMethod": "GET",
@@ -243,7 +211,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -254,7 +222,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.UsuariosController",
+    "ContainingType": "GestionTareas.API.Controllers.UsuariosController",
     "Method": "Post",
     "RelativePath": "api/Usuarios",
     "HttpMethod": "POST",
@@ -262,21 +230,15 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "usuario",
+        "Type": "GestionTareas.API.Models.Usuario",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.UsuariosController",
+    "ContainingType": "GestionTareas.API.Controllers.UsuariosController",
     "Method": "Get",
     "RelativePath": "api/Usuarios/{id}",
     "HttpMethod": "GET",
@@ -289,20 +251,10 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.String",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.UsuariosController",
+    "ContainingType": "GestionTareas.API.Controllers.UsuariosController",
     "Method": "Put",
     "RelativePath": "api/Usuarios/{id}",
     "HttpMethod": "PUT",
@@ -315,8 +267,8 @@
         "IsRequired": true
       },
       {
-        "Name": "value",
-        "Type": "System.String",
+        "Name": "usuario",
+        "Type": "GestionTareas.API.Models.Usuario",
         "IsRequired": true
       }
     ],
@@ -329,7 +281,7 @@
     ]
   },
   {
-    "ContainingType": "GestionTareas.MVC.Controllers.UsuariosController",
+    "ContainingType": "GestionTareas.API.Controllers.UsuariosController",
     "Method": "Delete",
     "RelativePath": "api/Usuarios/{id}",
     "HttpMethod": "DELETE",
@@ -349,5 +301,26 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "GestionTareas.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[GestionTareas.API.WeatherForecast, GestionTareas.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
   }
 ]

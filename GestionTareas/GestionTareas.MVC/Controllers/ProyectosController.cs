@@ -1,42 +1,152 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using GestionTareas.API.Models;
 
 namespace GestionTareas.MVC.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class ProyectosController : ControllerBase
+    public class ProyectosController : Controller
     {
-        // GET: api/<ProyectosController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly GestionTareasDbContext _context;
+
+        public ProyectosController(GestionTareasDbContext context)
         {
-            return new string[] { "value1", "value2" };
+            _context = context;
         }
 
-        // GET api/<ProyectosController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        // GET: Proyectos
+        public async Task<IActionResult> Index()
         {
-            return "value";
+            return View(await _context.Proyectos.ToListAsync());
         }
 
-        // POST api/<ProyectosController>
+        // GET: Proyectos/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var proyecto = await _context.Proyectos
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (proyecto == null)
+            {
+                return NotFound();
+            }
+
+            return View(proyecto);
+        }
+
+        // GET: Proyectos/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        
         [HttpPost]
-        public void Post([FromBody] string value)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,Nombre,Descripcion")] Proyecto proyecto)
         {
+            if (ModelState.IsValid)
+            {
+                _context.Add(proyecto);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(proyecto);
         }
 
-        // PUT api/<ProyectosController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        // GET: Proyectos/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var proyecto = await _context.Proyectos.FindAsync(id);
+            if (proyecto == null)
+            {
+                return NotFound();
+            }
+            return View(proyecto);
         }
 
-        // DELETE api/<ProyectosController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+      
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Descripcion")] Proyecto proyecto)
         {
+            if (id != proyecto.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(proyecto);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!ProyectoExists(proyecto.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(proyecto);
+        }
+
+        // GET: Proyectos/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var proyecto = await _context.Proyectos
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (proyecto == null)
+            {
+                return NotFound();
+            }
+
+            return View(proyecto);
+        }
+
+        // POST: Proyectos/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var proyecto = await _context.Proyectos.FindAsync(id);
+            if (proyecto != null)
+            {
+                _context.Proyectos.Remove(proyecto);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool ProyectoExists(int id)
+        {
+            return _context.Proyectos.Any(e => e.Id == id);
         }
     }
 }

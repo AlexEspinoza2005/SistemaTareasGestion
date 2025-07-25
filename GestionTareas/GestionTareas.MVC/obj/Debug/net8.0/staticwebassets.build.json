@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "/z6wu+7KBaZXlZkFR5xmUbCFP1JstdELwlPUmvs7M+w=",
+  "Hash": "3VfQQWDmcpzALK4Ocb4ZGyXEtKPt6eIFqJjtjKNijXA=",
   "Source": "GestionTareas.MVC",
   "BasePath": "_content/GestionTareas.MVC",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\jkespinoza\\OneDrive - Totaltek\\Documentos\\ExamenHerramientas1\\GestionTareas\\GestionTareas.API\\GestionTareas.API.csproj",
+      "Version": 2,
+      "Source": "GestionTareas.API",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [
     {
       "Name": "GestionTareas.MVC\\wwwroot",
