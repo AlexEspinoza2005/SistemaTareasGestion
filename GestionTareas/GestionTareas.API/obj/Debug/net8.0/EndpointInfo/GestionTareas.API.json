@@ -508,9 +508,6 @@
         "additionalProperties": false
       },
       "Tarea": {
-        "required": [
-          "proyecto"
-        ],
         "type": "object",
         "properties": {
           "id": {
@@ -535,18 +532,13 @@
           },
           "proyectoId": {
             "type": "integer",
-            "format": "int32"
+            "format": "int32",
+            "nullable": true
           },
           "usuarioId": {
             "type": "integer",
             "format": "int32",
             "nullable": true
-          },
-          "proyecto": {
-            "$ref": "#/components/schemas/Proyecto"
-          },
-          "usuario": {
-            "$ref": "#/components/schemas/Usuario"
           }
         },
         "additionalProperties": false

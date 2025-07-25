@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GestionTareas.API\GestionTareas.API.csproj" />
+  </ItemGroup>
+
 </Project>
