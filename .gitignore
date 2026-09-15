@@ -1,6 +1,11 @@
-﻿################################################################################
-# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+# Visual Studio .gitignore
 ################################################################################
 
-/.vs/ExamenHerramientas1/CopilotIndices/17.13.441.19478
-/GestionTareas/.vs/GestionTareas.API/FileContentIndex
+.vs/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
